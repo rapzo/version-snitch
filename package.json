@@ -1,0 +1,27 @@
+{
+  "name": "version-snitch",
+  "version": "1.0.0",
+  "description": "Snitch gives you the version of a given node module (or multiple) installed on a given path.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rapzo/version-snitch.git"
+  },
+  "keywords": [
+    "node",
+    "module",
+    "version"
+  ],
+  "author": "Rui Lima <ruipedro.lima@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rapzo/version-snitch/issues"
+  },
+  "homepage": "https://github.com/rapzo/version-snitch#readme",
+  "devDependencies": {
+    "tap": "^6.3.0"
+  }
+}

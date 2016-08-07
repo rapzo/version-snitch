@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+const snitch = require('.')
+
+const argv = Array.prototype.slice.call(process.argv, 2)
+
+if (!argv.length) {
+  console.error('No module name provided.')
+  return
+}
+
+snitch(argv.shift())
